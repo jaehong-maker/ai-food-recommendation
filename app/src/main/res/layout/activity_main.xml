@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <!-- 상단 여백 -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 로고 이미지 -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/my_splash_logo"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="앱 로고" />
+
+    <!-- 맛 + 시간 선택 버튼 -->
+    <Button
+        android:id="@+id/btn_taste_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="맛 + 시간 선택"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 날씨 선택 버튼 -->
+    <Button
+        android:id="@+id/btn_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날씨로 추천받기" />
+
+    <!-- 하단 여백 -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+</LinearLayout>

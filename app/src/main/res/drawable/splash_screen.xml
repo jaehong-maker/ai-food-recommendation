@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 배경색 -->
+    <item android:drawable="@android:color/white" />
+    <!-- 중앙 이미지 -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/my_splash_logo" />
+    </item>
+</layer-list>

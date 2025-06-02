@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ICTapp</string>
+
+    <!-- taste_spinner 항목용 배열 -->
+    <string-array name="taste_options">
+        <item>단맛</item>
+        <item>짠맛</item>
+        <item>매운맛</item>
+        <item>담백한맛</item>
+    </string-array>
+
+    <!-- ✅ contentDescription 누락된 항목 추가 -->
+    <string name="logo_content_description">앱 로고 이미지</string>
+</resources>

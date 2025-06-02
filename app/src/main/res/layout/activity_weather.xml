@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btn_sunny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="맑은 날 추천" />
+
+    <Button
+        android:id="@+id/btn_rainy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="비 오는 날 추천"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_snowy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="눈 오는 날 추천"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="더운 날 추천"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_cold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="추운 날 추천"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_go_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홈으로"
+        android:layout_gravity="start"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

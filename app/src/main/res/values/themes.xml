@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 앱 전체에서 사용하는 기본 테마 -->
+    <style name="Theme.ICTapp" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- 기본 테마는 일단 심플하게, 필요 시 커스터마이즈 -->
+    </style>
+
+    <!-- SplashActivity 전용 테마 (안드로이드 로고 제거용) -->
+    <style name="Theme.ICTapp.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

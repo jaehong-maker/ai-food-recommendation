@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <Spinner
+        android:id="@+id/taste_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/taste_options" />
+
+    <RadioGroup
+        android:id="@+id/time_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <RadioButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아침" />
+        <RadioButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="점심" />
+        <RadioButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="저녁" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_auto_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재 시간으로 선택"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="추천받기"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btn_go_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홈으로"
+        android:layout_gravity="start"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
